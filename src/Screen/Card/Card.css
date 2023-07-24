@@ -1,0 +1,21 @@
+.BoxIcon{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: #faeee6;
+}
+
+/* fa-solid fa-clock fs-5 */
+
+/* <OffCanvas
+title="Start"
+show={show}
+handleclose={handleClose}
+monuPlacement="start "
+>
+<button className="btn btn-primary">Your React Code</button>
+</OffCanvas>  */
+/* 
+<button className="btn btn-primary " onClick={handleShow}>
+Open Canvas
+</button> */

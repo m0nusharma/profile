@@ -1,0 +1,12 @@
+.buttonNav{
+    text-decoration: none !important;
+}
+
+.buttonNav:hover{
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+.icon{
+    min-width: 30px;
+}
