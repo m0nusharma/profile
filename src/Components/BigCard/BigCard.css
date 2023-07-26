@@ -51,10 +51,6 @@
   z-index: 2;
 }
 
-.cookieDescription a {
-  color: rgb(241, 241, 241);
-}
-
 .acceptButton {
   padding: 11px 20px;
   /* background-color: #7b57ff; */

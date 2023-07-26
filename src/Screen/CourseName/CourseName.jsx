@@ -14,7 +14,7 @@ const CourseName = ({title, caption, time, by, persent, ImageOne }) => {
         </div>
       </div>
       <div className=" col-sm-12 col-md-4 d-flex gap-2 align-items-center justify-content-center">
-        <i className="fa-solid fa-clock fs-4"></i>
+        <i className="fa-solid fa-clock fs-6"></i>
         <p className=" m-0">{time}</p>
       </div>
       <div className=" col-sm-12 col-md-4 gap-2 d-flex align-items-center float-end p-0">
