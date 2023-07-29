@@ -18,6 +18,8 @@ import Goal from "../Screen/Goal/Goal";
 import DotedCard from "../Components/DotedCard/DotedCard";
 import BlackBTN from "../Components/BlackBTN/BlackBTN";
 import BigCard from "../Components/BigCard/BigCard";
+import SideNav from "../Screen/SideNav/SideNav";
+import './Home.css'
 
 const Home = () => {
   const [show, setShow] = useState(false);
@@ -29,6 +31,10 @@ const Home = () => {
       <div className="row h-100">
         <div className="col-sm-12 col-md-8">
           <div className="row m-5 overflow-auto">
+          <i className="fa-solid fa-bars MiniSideNav " onClick={handleShow}> </i>
+          <OffCanvas show={show} handleclose={handleClose} monuPlacement='start'>
+          <SideNav />
+          </OffCanvas>
             <Heading />
             <div className="col-sm-6 col-md-4 mb-2 ">
               <Card
@@ -128,6 +134,7 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         <div className="col-sm-12 col-md-4 bg-light">
           <div className="m-4">
             <YourWelcome title="Welcome back, Monu!" caption="Web Designer" />
@@ -144,7 +151,6 @@ const Home = () => {
               title="Career Goals"
               caption="Get custom skill and courses  recomendation based on your goals."
             />
-
             <BlackBTN />
             <BigCard/>
           </div>

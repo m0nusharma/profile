@@ -17,9 +17,12 @@ function App() {
     },
   ]);
   return (
-    <div className="d-flex ">
-      <SideNav />
+    <div className="d-flex homeApp ">
+    <SideNav/>
+
       <RouterProvider router={router} />
+
+      
     </div>
   );
 }

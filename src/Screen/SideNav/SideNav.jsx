@@ -5,7 +5,7 @@ import NavButton from "../../Components/NavButtons/NavButton";
 
 const SideNav = () => {
   return (
-    <div className="viewheight p-4  text-center">
+    <div className="viewheight p-4  text-center sidenav">
       <h3 className="fw-2 text-center">
         {" "}
         <a href="/" className="link-underline-light text-dark">
