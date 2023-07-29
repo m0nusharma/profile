@@ -5,11 +5,12 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 function OffCanvas({title, children , show, handleclose, monuPlacement}) {
 
   return (
-      <Offcanvas show={show} onHide={handleclose} placement={monuPlacement}>
+    
+      <Offcanvas show={show} onHide={handleclose} placement={monuPlacement} >
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>{title}</Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Body className='overflow-hidden'>
           {children}
         </Offcanvas.Body>
       </Offcanvas>

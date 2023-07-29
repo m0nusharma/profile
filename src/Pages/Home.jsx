@@ -31,11 +31,13 @@ const Home = () => {
       <div className="row h-100">
         <div className="col-sm-12 col-md-8">
           <div className="row m-5 overflow-auto">
-          <i className="fa-solid fa-bars MiniSideNav " onClick={handleShow}> </i>
-          <OffCanvas show={show} handleclose={handleClose} monuPlacement='start'>
+          <div className="d-flex justify-content-between align-items-center  ">
+          <OffCanvas  show={show} handleclose={handleClose} monuPlacement='start'>
           <SideNav />
           </OffCanvas>
-            <Heading />
+          <Heading />
+          <i className="fa-solid fa-bars MiniSideNav fs-4 " onClick={handleShow}> </i>
+          </div>
             <div className="col-sm-6 col-md-4 mb-2 ">
               <Card
                 title="140+"
